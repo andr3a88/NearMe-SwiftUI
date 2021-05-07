@@ -20,6 +20,8 @@
 		FC83A72926454438005F3662 /* LandmarkListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC83A72826454438005F3662 /* LandmarkListView.swift */; };
 		FC83A72B2645457B005F3662 /* LandmarkCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC83A72A2645457B005F3662 /* LandmarkCategoryView.swift */; };
 		FC83A72D26456689005F3662 /* RecenterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC83A72C26456689005F3662 /* RecenterButton.swift */; };
+		FC83A73126459574005F3662 /* View+.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC83A73026459574005F3662 /* View+.swift */; };
+		FC83A73326459A5F005F3662 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC83A73226459A5F005F3662 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,8 @@
 		FC83A72C26456689005F3662 /* RecenterButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecenterButton.swift; sourceTree = "<group>"; };
 		FC83A72E26457501005F3662 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		FC83A72F2645759B005F3662 /* Bologna.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Bologna.gpx; sourceTree = "<group>"; };
+		FC83A73026459574005F3662 /* View+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+.swift"; sourceTree = "<group>"; };
+		FC83A73226459A5F005F3662 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				FC1C6AD72645319800AE2D03 /* MKCoordinateRegion+.swift */,
+				FC83A73026459574005F3662 /* View+.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -182,6 +187,7 @@
 			children = (
 				FC83A72826454438005F3662 /* LandmarkListView.swift */,
 				FC83A72A2645457B005F3662 /* LandmarkCategoryView.swift */,
+				FC83A73226459A5F005F3662 /* MapView.swift */,
 				FC83A72C26456689005F3662 /* RecenterButton.swift */,
 			);
 			path = Views;
@@ -319,11 +325,13 @@
 				FC83A72B2645457B005F3662 /* LandmarkCategoryView.swift in Sources */,
 				FC83A7202645367A005F3662 /* LocationManager.swift in Sources */,
 				FC1C6AD82645319800AE2D03 /* MKCoordinateRegion+.swift in Sources */,
+				FC83A73326459A5F005F3662 /* MapView.swift in Sources */,
 				FC1C6AAE2645311600AE2D03 /* ContentView.swift in Sources */,
 				FC83A72D26456689005F3662 /* RecenterButton.swift in Sources */,
 				FC83A7242645381B005F3662 /* PlaceListViewModel.swift in Sources */,
 				FC83A72626453FD0005F3662 /* LandmarkViewModel.swift in Sources */,
 				FC83A72926454438005F3662 /* LandmarkListView.swift in Sources */,
+				FC83A73126459574005F3662 /* View+.swift in Sources */,
 				FC1C6AAC2645311600AE2D03 /* NearMeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
